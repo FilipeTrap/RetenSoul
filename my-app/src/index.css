@@ -50,8 +50,8 @@ body {
 
 /* Quadrado maior */
 .big-square {
-  width: 400px;
-  height: 400px;
+  width: 402px;
+  height: 468px;
   background-color: #333;
   position: relative;
   margin-top: 20px;
@@ -60,8 +60,8 @@ body {
 
 /* Quadrados menores */
 .small-square {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 102px;
   position: absolute;
   background-color: #fff;
   border: 2px solid #000;
@@ -71,48 +71,48 @@ body {
 /* IDs individuais para manipulação */
 #square-1 {
   background-color: #e57373;
-  left: 10px;
-  top: 10px;
+  left: 85px;
+  top: 360px;
 }
 
 #square-2 {
   background-color: #f06292;
-  left: 10px;
-  top: 60px;
+  left: 85px;
+  top: 5px;
 }
 
 #square-3 {
   background-color: #ba68c8;
-  left: 10px;
-  top: 110px;
+  left: 250px;
+  top: 360px;
 }
 
 #square-4 {
   background-color: #64b5f6;
-  left: 10px;
-  top: 160px;
+  left: 250px;
+  top: 5px;
 }
 
 #square-5 {
   background-color: #4db6ac;
-  left: 150px;
-  top: 10px;
+  left: 125px;
+  top: 255px;
 }
 
 #square-6 {
   background-color: #81c784;
-  left: 150px;
-  top: 60px;
+  left: 125px;
+  top: 110px;
 }
 
 #square-7 {
   background-color: #ffd54f;
-  left: 150px;
-  top: 110px;
+  left: 210px;
+  top: 255px;
 }
 
 #square-8 {
   background-color: #ffb74d;
-  left: 150px;
-  top: 160px;
+  left: 210px;
+  top: 110px;
 }
