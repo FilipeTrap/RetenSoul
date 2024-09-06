@@ -8,7 +8,7 @@ function App() {
         <h1>Mobile Screen</h1>
         <BigSquare />
         <button id="botaoteste" onClick={() => { 
-   document.getElementById('square-8').className = 'teste'; //animação
+   document.getElementById('square-8').className = 'teste'; //animação teste
    setTimeout(function() {
      document.getElementById('square-8').className = 'small-square';
      }, 900)
