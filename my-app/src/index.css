@@ -50,18 +50,19 @@ body {
 
 /* Quadrado maior */
 .big-square {
-  width: 402px;
-  height: 468px;
+  width: 403px;
+  height: 552px;
   background-color: #333;
   position: relative;
   margin-top: 20px;
   border-radius: 10px;
+  margin-top: -100px;
 }
 
 /* Quadrados menores */
 .small-square {
-  width: 80px;
-  height: 102px;
+  width: 93px;
+  height: 114px;
   position: absolute;
   background-color: #fff;
   border: 2px solid #000;
@@ -71,48 +72,76 @@ body {
 /* IDs individuais para manipulação */
 #square-1 {
   background-color: #e57373;
-  left: 85px;
-  top: 360px;
+  left: 5px;
+  top: 422px;
 }
 
 #square-2 {
   background-color: #f06292;
-  left: 85px;
-  top: 5px;
+  left: 305px;
+  top: 422px;
 }
 
 #square-3 {
   background-color: #ba68c8;
-  left: 250px;
-  top: 360px;
+  left: 5px;
+  top: 292px;
 }
 
 #square-4 {
   background-color: #64b5f6;
-  left: 250px;
-  top: 5px;
+  left: 305px;
+  top: 292px;
 }
 
 #square-5 {
   background-color: #4db6ac;
-  left: 125px;
-  top: 255px;
+  left: 5px;
+  top: 166px;
 }
 
 #square-6 {
   background-color: #81c784;
-  left: 125px;
-  top: 110px;
+  left: 305px;
+  top: 166px;
 }
 
 #square-7 {
   background-color: #ffd54f;
-  left: 210px;
-  top: 255px;
+  left: 5px;
+  top: 41px;
 }
 
 #square-8 {
   background-color: #ffb74d;
-  left: 210px;
-  top: 110px;
+  left: 305px;
+  top: 41px;
 }
+
+.teste {
+  width: 80px;
+  height: 102px;
+  position: absolute;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
+  animation-name: testea; /* Nome da animação deve coincidir */
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes testea {
+  0% {left: 210px; top: 110px;}
+  50% {left: 110px; top: 510px;}
+  100% {left: 210px; top: 110px;}
+}
+
+
+  #botaoteste {
+    width: 80px;
+  height: 102px;
+  position: absolute;
+    background-color: #ffb74d;
+    left: 210px;
+    top: 110px;
+  }

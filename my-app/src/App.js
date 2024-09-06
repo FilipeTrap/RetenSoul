@@ -7,6 +7,12 @@ function App() {
       <div className="mobile-screen">
         <h1>Mobile Screen</h1>
         <BigSquare />
+        <button id="botaoteste" onClick={() => { 
+   document.getElementById('square-8').className = 'teste'; //animação
+   setTimeout(function() {
+     document.getElementById('square-8').className = 'small-square';
+     }, 900)
+}}>teste</button>
       </div>
     </div>
   );
@@ -26,6 +32,8 @@ function BigSquare() {
     </div>
   );
 }
+
+
 
 export default App;
 //coimentariosdu aweasd asdas
